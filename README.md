@@ -8,7 +8,7 @@ To implement  D flipflop using verilog and validating their functionality using 
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
 **D Flip-Flop**
 
@@ -26,7 +26,7 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
-**Procedure**
+**PROCEDURE:**
 
 1.Type the program in Quartus software.
 
@@ -39,8 +39,10 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 5.For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+**PROGRAM:**
+
 Name : Amruthvarshini Gopal
+
 Register Number : 212223230013
 ```
 module D_FF(D,Clock,reset,Q);
@@ -54,13 +56,13 @@ Q<=D;
 endmodule
 ```
 
-**RTL LOGIC FOR FLIPFLOPS**
+**RTL LOGIC FOR FLIPFLOPS:**
 ![de4](https://github.com/23002776/D-FLIPDLOP-NEGEDGE/assets/145742657/65aa3eea-6e7f-431f-824a-7284d4549c67)
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**TIMING DIGRAMS FOR FLIP FLOPS:**
 ![de5](https://github.com/23002776/D-FLIPDLOP-NEGEDGE/assets/145742657/961d7bd6-51ed-47ad-a0aa-def07a31d293)
 
 
-**RESULTS**
+**RESULT:**
 
 Thus the program to implement a D flipflop using verilog and validating their functionality using their functional tables
